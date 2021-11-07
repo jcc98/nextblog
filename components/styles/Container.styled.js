@@ -37,6 +37,7 @@ export const HeaderContainer = styled.div`
         border-style: none;
         background: -webkit-linear-gradient(#a18cd1, #fbc2eb);
         -webkit-background-clip: text;
+        background-clip: border-box;
         -webkit-text-fill-color: transparent;
     }
 `
@@ -47,6 +48,7 @@ export const Center = styled.div`
 
 export const PostBody = styled.div`
     margin-top: 2rem;
-    padding: 0 10rem;
+    padding: 0 15rem;
     line-height: 2rem;
+    font-size: 1.25rem;
 `

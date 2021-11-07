@@ -12,7 +12,7 @@ import { PostContainer } from "../components/styles/Container.styled"
 //Styled component
 import { Posts } from "../components/styles/Post.styled"
 
-interface IRecipeProps {
+interface IFilteredPosts {
   slug: "string";
   frontmatter: {
     title: "string";
@@ -20,28 +20,13 @@ interface IRecipeProps {
     excerpt: "string";
     cover_image: "string"
   }
+} 
+const Home = ({posts}: {posts:IFilteredPosts[]}) => {
 
-}
-
-const Home = ({posts}: {posts:any}) => {
-
-  interface IFilteredPosts {
-    slug: "string";
-    frontmatter: {
-      title: "string";
-      date: "string";
-      excerpt: "string";
-      cover_image: "string"
-    }
-  } 
 
 const [navValue, setNavValue] = useState<Number>()
 
 let filteredPosts:IFilteredPosts[] = [...posts]
-
-
-console.log(filteredPosts)
-console.log(typeof filteredPosts)
 
 const changeSlugArray = (value:string):void => {
   filteredPosts = filteredPosts.filter(item => item.slug.includes(value))

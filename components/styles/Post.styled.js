@@ -23,6 +23,11 @@ export const PostsStyle = styled.div`
         width: 650px;
         
   }
+
+  @media (max-width: 650px) {
+      padding: 1rem;
+      width: 400px;
+  }
 `
 
 export const PostTitle = styled.h1`

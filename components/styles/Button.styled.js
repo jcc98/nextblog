@@ -1,7 +1,8 @@
 import styled from "styled-components"
 
 export const Button = styled.a`
-display: inline-block;
+display: flex;
+align-self: center;
 background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
 color: #fffff4;
 border: none;

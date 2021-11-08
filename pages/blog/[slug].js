@@ -20,12 +20,12 @@ export default function PostPage({frontmatter: {title, date, cover_image}, slug,
     return (
         <>
             <Link href="/">
-                <PostBack>Go back</PostBack>
+                <PostBack>戻る</PostBack>
             </Link>
             <div>
                 <Center>
                     <PostTitle>{title}</PostTitle>
-                    <PostDate>Posted on {date}</PostDate>
+                    <PostDate>投稿日: {date}</PostDate>
                 </Center>
                 <motion.div initial="hidden" animate="visible" variants={variants} transition={{duration: 0.5}}>
                     <img className="cover_img" src={cover_image} alt=""/>

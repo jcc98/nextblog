@@ -75,3 +75,10 @@ export const PostDate = styled.div`
     color: #fff;
     box-shadow: 1px 1px 5px 0.3px #fbc2eb;
 `
+
+export const ReadMoreContainer = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 2rem;
+`

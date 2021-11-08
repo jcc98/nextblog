@@ -4,7 +4,8 @@ import matter from "gray-matter"
 import marked from "marked"
 import Link from "next/link"
 import { PostTitle } from "../../components/styles/Post.styled"
-import { PostDate } from "../../components/styles/Post.styled"
+import { PostBack } from "../../components/styles/Post.styled"
+import { PostDate } from "../../components/styles/Container.styled"
 import {motion} from "framer-motion"
 import { Center } from "../../components/styles/Container.styled"
 import { PostBody } from "../../components/styles/Container.styled"
@@ -19,9 +20,9 @@ export default function PostPage({frontmatter: {title, date, cover_image}, slug,
     return (
         <>
             <Link href="/">
-                <a className="btn btn-back">Go back</a>
+                <PostBack>Go back</PostBack>
             </Link>
-            <div className="card card-page">
+            <div>
                 <Center>
                     <PostTitle>{title}</PostTitle>
                     <PostDate>Posted on {date}</PostDate>

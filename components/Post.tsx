@@ -14,16 +14,18 @@ export const Post = ({post} : {post: any}) => {
     }
     return (
         <>
-        
-        <motion.div initial="hidden" animate="visible" variants={variants} transition={{duration: 0.7}} whileHover={{scale: 1.05}} className="card">
-            <img src={post.frontmatter.cover_image} alt=""/>
-            <div className="post-date">Posted on {post.frontmatter.date}</div>
-            <H3Container>{post.frontmatter.title}</H3Container>
-            <p>{post.frontmatter.excerpt}</p>
-            <Link href={`/blog/${post.slug}`}>
-                <Button>Read more</Button>
-            </Link>
-        </motion.div>
+            <motion.div initial="hidden" animate="visible" variants={variants} transition={{duration: 0.7}} whileHover={{scale: 1.05}} className="card">
+                <img src={post.frontmatter.cover_image} alt=""/>
+                <div>Posted on {post.frontmatter.date}</div>
+                <H3Container>{post.frontmatter.title}</H3Container>
+                <p>{post.frontmatter.excerpt}</p>
+                <div>
+                <Link href={`/blog/${post.slug}`}>
+                    <Button>Read more</Button>
+                </Link>
+                <p>test</p>
+                </div>
+            </motion.div>
         </>
     )
 }

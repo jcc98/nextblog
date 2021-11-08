@@ -8,9 +8,8 @@ import Head from 'next/head'
 import Header from "../components/Header"
 import {Post} from "../components/Post"
 import {sortByDate} from "../utils"
-import { PostContainer } from "../components/styles/Container.styled"
 //Styled component
-import { Posts } from "../components/styles/Post.styled"
+import { PostsStyle } from "../components/styles/Post.styled"
 
 interface IFilteredPosts {
   slug: "string";
@@ -52,19 +51,17 @@ switch(navValue) {
 
   return (
     <>
-    <PostContainer>
         <Header setNavValue={setNavValue}/>
         <div>
         <Head>
-          <title>ブロッグ</title>
+          <title>ブログ</title>
         </Head>
-          <Posts>
+          <PostsStyle>
             {filteredPosts.map((post:any, index:number) => (
               <Post key={index} post={post}/>
           ))}
-          </Posts> 
+          </PostsStyle> 
       </div>
-      </PostContainer>
     </>
   )
 }

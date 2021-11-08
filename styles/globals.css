@@ -4,6 +4,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+
 }
 
 body {
@@ -38,20 +40,6 @@ header a {
   width: 25%;
   display: block;
   margin: 0 auto;
-}
-
-.btn:focus {
-  outline: none;
-}
-
-.btn:hover {
-  transform: scale(0.98);
-}
-
-.btn-back {
-  background: #f4f4f4;
-  color: #000;
-  margin-bottom: 20px;
 }
 
 .card {

@@ -9,6 +9,12 @@
 
 }
 
+:root {
+  --black: #333333;
+  --white: #f5f5f5;
+	--transition: 0.5s ease;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
 }

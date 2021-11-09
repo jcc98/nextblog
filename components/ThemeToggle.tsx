@@ -1,11 +1,8 @@
-import React, { useState, useEffect } from "react"
+import React, { useState } from "react"
 import styles from "../styles/themetoggle.module.css"
 export default function ThemeToggle() {
   const [isEnabled, setIsEnabled] = useState<boolean>(false)
 
-  useEffect(() => {
-    console.log("later")
-  }, [isEnabled])
 
   const toggleState = ():void => {
     setIsEnabled(prevState => !prevState)

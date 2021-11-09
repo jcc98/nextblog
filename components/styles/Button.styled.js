@@ -22,3 +22,18 @@ font-family: inherit;
   }
   
 `
+
+export const themeButton = styled.button`
+  outline: none;
+  color: red;
+`
+
+export const buttonStyle = {
+  cursor: "pointer",
+  borderRadius: "15px",
+  margin: "0 auto",
+  display: "block",
+  padding: "7px 5px",
+  backgroundColor: "white",
+  border: "1px solid #000",
+}

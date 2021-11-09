@@ -10,7 +10,6 @@ import {Post} from "../components/Post"
 import {sortByDate} from "../utils"
 //Styled component
 import { PostsStyle } from "../components/styles/Post.styled"
-import ThemeToggle from "../components/ThemeToggle"
 
 interface IFilteredPosts {
   slug: "string";
@@ -53,7 +52,6 @@ switch(navValue) {
   return (
     <>
         <Header setNavValue={setNavValue}/>
-        <ThemeToggle/>
         <div>
         <Head>
           <title>ブログ</title>

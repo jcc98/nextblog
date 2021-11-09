@@ -8,7 +8,6 @@ export const Container = styled.div`
 `
 
 export const HeaderContainer = styled.div`
-    background-color: #fff;
     display: flex;
     justify-content: space-between;
     animation: 0.5s all;    

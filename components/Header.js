@@ -1,6 +1,5 @@
 import Link from "next/link"
 import {HeaderContainer} from "./styles/Container.styled"
-import {Burger} from "./styles/Container.styled"
 
 export default function Header({setNavValue}) {
 

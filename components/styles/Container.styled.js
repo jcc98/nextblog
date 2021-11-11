@@ -54,6 +54,7 @@ export const Center = styled.div`
 
 export const PostBody = styled.div`
     margin-top: 2rem;
+    margin-bottom: 3rem;
     padding: 0 12rem;
     line-height: 2rem;
     font-size: 1.25rem;

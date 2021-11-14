@@ -26,6 +26,8 @@ export default function PostPage({frontmatter: {title, date, cover_image}, slug,
                 <Center>
                     <PostTitle>{title}</PostTitle>
                     <PostDate>投稿日: {date}</PostDate>
+                    <br></br>
+                    <PostDate>文字数: {(content.length)}</PostDate>
                 </Center>
                 <motion.div initial="hidden" animate="visible" variants={variants} transition={{duration: 0.5}}>
                     <img className="cover_img" src={cover_image} alt=""/>

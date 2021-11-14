@@ -9,13 +9,14 @@ export const H3Container = styled.h3`
 `
 
 export const PostsStyle = styled.div`
-    width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    gap: 35px;
     margin-top: 30px;
     overflow-y: hidden;
+    padding: 1rem 2rem;
 
     @media (max-width: 900px) {
         grid-template-columns: repeat(1, 1fr);

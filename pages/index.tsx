@@ -10,8 +10,9 @@ import {Post} from "../components/Post"
 import {sortByDate} from "../utils"
 //Styled component
 import { PostsStyle } from "../components/styles/Post.styled"
+import {Footer} from "../components/Footer"
 
-interface IFilteredPosts {
+export interface IFilteredPosts {
   slug: "string";
   frontmatter: {
     title: "string";
@@ -57,10 +58,11 @@ switch(navValue) {
           <title>ブログ</title>
         </Head>
           <PostsStyle>
-            {filteredPosts.map((post:any, index:number) => (
+            {filteredPosts.map((post:IFilteredPosts, index:number) => (
               <Post key={index} post={post}/>
           ))}
           </PostsStyle> 
+          <Footer/>
       </div>
     </>
   )

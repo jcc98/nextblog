@@ -3,8 +3,9 @@ import {Button} from "./styles/Button.styled"
 import { H3Container } from "./styles/Post.styled";
 import { motion } from "framer-motion";
 import { ReadMoreContainer } from "./styles/Container.styled"
+import { IFilteredPosts } from "../pages";
 
-export const Post = ({post} : {post: any}) => {
+export const Post = ({post} : {post: IFilteredPosts}) => {
 
     const variants:{} = {
         visible: {opacity: 1},

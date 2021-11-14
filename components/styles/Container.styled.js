@@ -82,3 +82,7 @@ export const ReadMoreContainer = styled.div`
     justify-content: space-between;
     margin: 0 2rem;
 `
+
+export const PostLengthSTyle = styled.div`
+    
+`

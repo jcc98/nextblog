@@ -14,15 +14,27 @@ cover_image: '/images/posts/foret.jpeg'
 ウイルス対策曰く、一台に乗る家族以外の者は一人か二人までしか許されておらず、彼の車で皆揃って行くことはルールを破ることになっちゃう。焚き火をやる場所は随分遠くて、まあまあ辺鄙な所なんで、電車で行けるっちゃ行けるけど、ルールが緩めてから皆で行きましょうっていう感じで例の焚き火冒険は延期となった。
 
 なので、焚き火の代わりに森で彼の散策して開拓してきたルートを皆で一周しました。以前からそのルートを図形にしていて、秘密基地まで作った。
-![chizu](..\public\images\posts\chizu.jpg)
+<img style="display: block;
+  margin-left: auto;
+  margin-right: auto;" src="/images/posts/chizu.jpg" width=50% ></img> <br />
 秘密基地やらを子供たちと作ってきたので、図形がかなり漫画的に書かれていて結構面白い。 距離は８キロぐらいで、途中に休憩のがてらガスストーブで温めて温かいものを食べました。大体ラーメンだったけど、Sはお茶漬けを食べた。行ったのは日曜日だったのが原因だろうけど、森へ入った時のすれ違いした人数がかなり多くて、マスクを付けずにのんびりと散歩したりしてた人たちが多かった。奥へ進むに連れて、人影が消え、例の秘密基地に到着しました。
-![kichi](..\public\images\posts\kichi.jpg)
+<img style="display: block;
+  margin-left: auto;
+  margin-right: auto;" src="/images/posts/kichi.jpg" width=50% ></img> <br />
 人のいない所で（そうじゃないと秘密基地って呼べないだろう）、木が不思議と八本揃って輪を作るように屹立していて、心地よかった。生理的な用を簡単に足せるぐらいにメインルートと割合的にかけ離れていた。 秘密基地までたどり着いて食事を済ましたら少し秘密基地の手入れやらをしはじめたSと若い子を暫くと後にして、友達と彼の彼女でぶらぶらした。色々な虫やキノコを発見しました。際立ったやつを貼っていきます。
-![kinoko1](..\public\images\posts\kin1.jpg)
-くっついてキレイに繁殖してきたキノコたち
-![kinoko2](..\public\images\posts\kin2.jpg)
-デカイのまでが生えていて、自分の重みに平然と耐えられた丈夫なキノコ
-![kinoko3](..\public\images\posts\kin3.jpg)
+<img style="display: block;
+  margin-left: auto;
+  margin-right: auto;" src="/images/posts/kin1.jpg" width=50% ></img> <br />
+くっついてキレイに繁殖してきたキノコたち <br />
+<img style="display: block;
+  margin-left: auto;
+  margin-right: auto;" src="/images/posts/kin2.jpg" width=50% ></img> 
+デカイのまでが生えていて、自分の重みに平然と耐えられた丈夫なキノコ<br />
+<img style="display: block;
+  margin-left: auto;
+  margin-right: auto;" src="/images/posts/kin3.jpg" width=50% ></img> 
+
+
 ちょっと下手に取れたけど、独特な色をしているキノコまでも散々
 
 キノコに対しては一向に詳しくないけど、こんなデカイ森がキノコ狩り者にとっては楽園だろう。ところで、入り口にはキノコ狩り禁止って書いてあった。

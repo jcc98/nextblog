@@ -29,7 +29,7 @@ a {
   color: #333;
 }
 
-img {
+.card > img {
   width: 100%;
   border-radius: 10px;
 }
@@ -57,6 +57,10 @@ header a {
 
 .card-page {
   padding: 15px 30px;
+}
+
+h2 {
+  overflow-y: hidden;
 }
 
 

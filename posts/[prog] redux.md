@@ -56,7 +56,7 @@ To create a combineReducers function:
 `const allReducers = combineReducers({counter: counterReducer})` \
 The function name (on the right) needs to be consistent to our imported function, we can however give it whatever name we want. (in our case, counter) \
 *ES6 common practice: by not assigning it a name (only calling the function), ES6 automatically assigns the same name as the reducer function.* \
-`const allReducers = combineReducers({counterReducer}) === combineReducers({counterReducer: counterReducer)}`
+`const allReducers = combineReducers({counterReducer}) === combineReducers({counterReducer: counterReducer)}` \
 *When importing the combineReducers function from index.js located in the reducers folder, you don't have to specify the name when importing it. (import allReducer from "./reducers" is valid) webpack takes care of the naming.*
 
 ---

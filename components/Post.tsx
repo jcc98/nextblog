@@ -40,6 +40,10 @@ export const Post = ({post} : {post: IFilteredPosts}) => {
             return (
                 <div>🗻</div>
             )
+        } else if (post.slug.includes("nikki")) {
+          return (
+            <div>📖</div>
+          )
         }
       })()}
                 </ReadMoreContainer>

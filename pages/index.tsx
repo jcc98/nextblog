@@ -38,13 +38,13 @@ switch(navValue) {
     changeSlugArray("seishin")
     break;
   case 1:
-    changeSlugArray("nihongo")
+    changeSlugArray("nikki")
     break;
   case 2:
-    changeSlugArray("prog")
+    changeSlugArray("nihongo")
     break;
   case 3:
-    changeSlugArray("")
+    changeSlugArray("prog")
     break;
   case undefined:
     changeSlugArray

@@ -7,10 +7,12 @@ import { IFilteredPosts } from "../pages";
 
 export const Post = ({post} : {post: IFilteredPosts}) => {
 
+
     const variants:{} = {
         visible: {opacity: 1},
         hidden: {opacity: 0},
     }
+    
 
     return (
         <>

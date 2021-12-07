@@ -9,16 +9,40 @@ import { PostDate } from "../../components/styles/Container.styled"
 import {motion} from "framer-motion"
 import { Center } from "../../components/styles/Container.styled"
 import { PostBody } from "../../components/styles/Container.styled"
+import { useEffect, useRef, useState } from "react"
+import { ProgressBar } from "../../components/styles/ProgressBar.styled"
 
 export default function PostPage({frontmatter: {title, date, cover_image}, slug, content}) {
+
+
+    var value;
+    const [progressPercentage, setProgressPercentage] = useState(value)
     
     const variants = {
         visible: {opacity: 1},
         hidden: {opacity: 0},
     }
+    const inputRef = useRef();
+    const scrollHandler = () => {
+        let scrollDistance = -inputRef.current.getBoundingClientRect().top
+        let heightDistance = inputRef.current.getBoundingClientRect().height 
+        let totalDistance = (scrollDistance / (heightDistance - document.documentElement.clientHeight) * 100)
+        value = Math.floor(totalDistance)
+        setProgressPercentage(value)
+    
+    }
+  
+    useEffect(() => {
+      window.addEventListener("scroll", scrollHandler, true);
+      return () => {
+        window.removeEventListener("scroll", scrollHandler, true);
+      };
+    }, []);
 
     return (
         <>
+        <div ref={inputRef}>
+            <ProgressBar style={{"width": `${progressPercentage}%`}}/>
             <Link href="/">
                 <PostBack>戻る</PostBack>
             </Link>
@@ -35,6 +59,7 @@ export default function PostPage({frontmatter: {title, date, cover_image}, slug,
                         <div dangerouslySetInnerHTML={{__html: marked(content)}}></div>
                     </PostBody>
                 </motion.div>
+            </div>
             </div>
         </>
     )

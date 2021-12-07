@@ -11,6 +11,7 @@ import {sortByDate} from "../utils"
 //Styled component
 import { PostsStyle } from "../components/styles/Post.styled"
 import {Footer} from "../components/Footer"
+import {TopImage} from "../components/TopImage"
 
 export interface IFilteredPosts {
   slug: "string";
@@ -52,10 +53,12 @@ switch(navValue) {
 
   return (
     <>
+        <TopImage/>
         <Header setNavValue={setNavValue}/>
         <div>
         <Head>
           <title>ブログ</title>
+          <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"></link>
         </Head>
           <PostsStyle>
             {filteredPosts.map((post:IFilteredPosts, index:number) => (

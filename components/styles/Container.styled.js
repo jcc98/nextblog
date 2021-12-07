@@ -86,3 +86,27 @@ export const ReadMoreContainer = styled.div`
 export const PostLengthSTyle = styled.div`
     
 `
+
+export const ImgContainer = styled.div`
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 2rem;
+`
+
+export const ImgText = styled.div`
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    box-shadow: 4px 3px 20px 5px rgba(0,0,0,0.52);
+    padding: 2.5rem;
+    background-color: rgba(0,0,0, 0.5);
+
+    & p {
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+    }
+`

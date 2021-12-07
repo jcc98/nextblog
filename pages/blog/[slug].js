@@ -29,8 +29,9 @@ export default function PostPage({frontmatter: {title, date, cover_image}, slug,
         let totalDistance = (scrollDistance / (heightDistance - document.documentElement.clientHeight) * 100)
         value = Math.floor(totalDistance)
         setProgressPercentage(value)
-    
     }
+
+
   
     useEffect(() => {
       window.addEventListener("scroll", scrollHandler, true);

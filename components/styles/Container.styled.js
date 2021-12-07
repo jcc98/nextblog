@@ -68,7 +68,7 @@ export const PostBody = styled.div`
 export const PostDate = styled.div`
     font-size: 1.4rem;
     display: inline-block;
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background-image: linear-gradient(to left, #a18cd1 0%, #fbc2eb 100%);
     border-radius: 3px;
     margin: 2rem 0;
     padding: 5px 10px;

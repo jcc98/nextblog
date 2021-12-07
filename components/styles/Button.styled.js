@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const Button = styled.a`
 display: flex;
 align-self: center;
-background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+background-image: linear-gradient(to left, #a18cd1 0%, #fbc2eb 100%);
 color: #fffff4;
 border: none;
 padding: 8px 16px;

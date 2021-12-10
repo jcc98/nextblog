@@ -101,12 +101,21 @@ export const ImgText = styled.div`
     text-align: center;
     transform: translate(-50%,-50%);
     box-shadow: 4px 3px 20px 5px rgba(0,0,0,0.52);
-    padding: 2.5rem;
     background-color: rgba(0,0,0, 0.5);
+
+    overflow: hidden;
 
     & p {
         font-size: 2rem;
         text-transform: uppercase;
         font-family: 'Roboto', sans-serif;
+    }
+
+    @media only screen and (max-width: 900px) {
+        p {
+            font-size: 1rem;
+        }
+        padding: 1rem;
+
     }
 `

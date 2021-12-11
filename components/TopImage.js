@@ -13,6 +13,7 @@ export const TopImage = () => {
         <hr></hr>
         <p>Thoughts, stories and ideas.</p>        
       </ImgText>
+      
     </ImgContainer>
   )
 

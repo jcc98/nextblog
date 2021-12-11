@@ -83,9 +83,6 @@ export const ReadMoreContainer = styled.div`
     margin: 0 2rem;
 `
 
-export const PostLengthSTyle = styled.div`
-    
-`
 
 export const ImgContainer = styled.div`
     position: relative;
@@ -102,6 +99,7 @@ export const ImgText = styled.div`
     transform: translate(-50%,-50%);
     box-shadow: 4px 3px 20px 5px rgba(0,0,0,0.52);
     background-color: rgba(0,0,0, 0.5);
+    padding: 1rem 2rem;
 
     overflow: hidden;
 

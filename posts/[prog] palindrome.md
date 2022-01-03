@@ -1,5 +1,5 @@
 ---
-title: 'Two Sums solution'
+title: 'Palindrome Number Solution'
 date: 'January 2, 2022'
 excerpt: 'Palindrome Number'
 cover_image: '/images/posts/leetcode.png'
@@ -16,3 +16,8 @@ var isPalindrome = function(x) { \
     if (reversedInt === x) {return true}  **Checks whether the reversed int value is the same as the x parameter. If so, returns true** \
     return false  **Else, returns false** \
 };
+
+*Runtime: 335 ms, faster than 11.47% of JavaScript online submissions for Palindrome Number.* \
+*Memory Usage: 48.4 MB, less than 32.01% of JavaScript online submissions for Palindrome Number.* \
+
+**More optimized solution (faster run time)**

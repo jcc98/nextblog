@@ -43,5 +43,5 @@ var romanToInt = function(s) { \
         } \
     } \
     **Exits loop, returns number** \
-    return number \
+    return number. \
 } 
